@@ -22,7 +22,7 @@ import org.springframework.core.env.Environment;
 import javax.sql.DataSource;
 
 @Push
-@Theme(value = "library")
+@Theme(value = "library", variant = "dark")
 @PWA(name = "Library", shortName = "Library")
 @SpringBootApplication
 public class LibraryApplication implements AppShellConfigurator {
